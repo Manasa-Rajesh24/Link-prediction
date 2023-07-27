@@ -1,0 +1,80 @@
+body { 
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+  }
+  div .fb{
+    font-family: 'Roboto', sans-serif;
+    color: #0066ff;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 100px 0px 0px 100px;
+  margin-left: 50px;
+  }
+  div p {
+    margin:0px 0px 0px 50px;
+  }
+  div.main {
+    width: 350px;
+    float: right;
+    margin-top: -15%;
+    margin-right: 10%;
+    background-color: rgba(204, 204, 255, 0.3);
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(204, 204, 255, 0.3);
+  border-radius: 8px;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   }
+  input.new {
+    width: 100%;
+    background-color: #0066ff;
+    color: white;
+    padding: 14px 14px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  div a {
+  width: 60%;
+  margin: 0% 15%;
+  color: rgba(51, 102, 204, 0.7);
+  text-decoration: none;
+  }
+  button.new {
+  width: 50%;
+  background-color: #009933;
+    color: white;
+    padding: 14px 14px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input.new {
+  color: white;
+  font-weight: bold;
+  }
+  input.ip:focus {
+    background-color: #ffffcc;
+  }
+  
